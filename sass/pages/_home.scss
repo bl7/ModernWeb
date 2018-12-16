@@ -5,6 +5,13 @@
 
     @include respond(tab-potr) {
         padding: 20rem 0;
+
+    }
+
+    .heading-secondary {
+        @include respond(tab-potr) {
+            margin-top: 5rem;
+        }
     }
 }
 
